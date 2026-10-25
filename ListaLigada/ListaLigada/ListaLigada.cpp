@@ -185,8 +185,8 @@ void excluirElemento()
  
 	if (atual == ultimo) {
 		ultimo = anterior;
-		atual = NULL;
 		free(atual);
+		atual = NULL;
 		cout << "Elemento excluido com sucesso!\n";
 		return;
 	}
